@@ -30,7 +30,7 @@ public class BestTimeBuySellStock {
         for (int i = 0; i < prices.length; i++) {
             for (int j = i + 1; j < prices.length; j++) {
                 int profit = prices[j] - prices[i];
-                if (profit > maxProfit) {
+                if (profit > maxProfit){
                     maxProfit = profit;
                 }
             }
